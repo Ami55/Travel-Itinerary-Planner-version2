@@ -198,7 +198,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
           <div className="flex flex-col sm:flex-row items-center gap-1.5 sm:gap-3">
             <span className="font-medium text-slate-700">
-              &copy; 2026 Travel Itinerary Planner V2. Developed by SEO Girl-Ami.
+              &copy; 2026 Travel Itinerary Planner V2. Developed by <strong>SEO Girl - Ami</strong>.
             </span>
           </div>
 
@@ -215,7 +215,7 @@ export default function App() {
             <span>Gemini-powered planning</span>
           </div>
         </div>
-      </footer>
+      <span> All rights reserved.</span></footer>
     </div>
   );
 }
